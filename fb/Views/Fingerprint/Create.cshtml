@@ -1,0 +1,128 @@
+﻿@model fb.Models.Entites.Fingerprint
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Fingerprint</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Period_Name" class="control-label"></label>
+                <input asp-for="Period_Name" class="form-control" />
+                <span asp-validation-for="Period_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time_Departure" class="control-label"></label>
+                <input asp-for="Time_Departure" class="form-control" />
+                <span asp-validation-for="Time_Departure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Start_Time" class="control-label"></label>
+                <input asp-for="Start_Time" class="form-control" />
+                <span asp-validation-for="Start_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Letting_Time" class="control-label"></label>
+                <input asp-for="Letting_Time" class="form-control" />
+                <span asp-validation-for="Letting_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Closure_Time" class="control-label"></label>
+                <input asp-for="Closure_Time" class="form-control" />
+                <span asp-validation-for="Closure_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time_Required" class="control-label"></label>
+                <input asp-for="Time_Required" class="form-control" />
+                <span asp-validation-for="Time_Required" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fingerprint_date" class="control-label"></label>
+                <input asp-for="Fingerprint_date" class="form-control" />
+                <span asp-validation-for="Fingerprint_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeId" class="control-label"></label>
+                <select asp-for="EmployeeId" class ="form-control" asp-items="ViewBag.EmployeeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FingerprintDevicesId" class="control-label"></label>
+                <select asp-for="FingerprintDevicesId" class ="form-control" asp-items="ViewBag.FingerprintDevicesId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts{ 
+
+    @{ <partial name="_ValidationScriptsPartial" /> }
+
+       <script>
+      $("#Fingerprint_date").datetimepicker({
+      timepicker: false,
+      //datepicker: true,
+      format: 'Y-m-d',
+      value: '2019-8-1', //defaultDate
+     });
+
+
+      $("#Time_Departure").datetimepicker({
+      timepicker: true,
+      datepicker: false,
+      format: 'H:i',
+      value: '08:45', //defaultDate
+      hours12: true,
+      step: 5,
+     });
+
+       $("#Start_Time").datetimepicker({
+      timepicker: true,
+      datepicker: false,
+      format: 'H:i',
+      value: '08:45', //defaultDate
+      hours12: true,
+      step: 5,
+     });
+
+     $("#Letting_Time").datetimepicker({
+      timepicker: true,
+      datepicker: false,
+      format: 'H:i',
+      value: '08:45', //defaultDate
+      hours12: true,
+      step: 5,
+     });
+
+     $("#Closure_Time").datetimepicker({
+      timepicker: true,
+      datepicker: false,
+      format: 'H:i',
+      value: '08:45', //defaultDate
+      hours12: true,
+      step: 5,
+     });
+
+     $("#Time_Required").datetimepicker({
+      timepicker: true,
+      datepicker: false,
+      format: 'H:i',
+      value: '08:45', //defaultDate
+      hours12: true,
+      step: 5,
+     });
+
+
+    </script>
+     }

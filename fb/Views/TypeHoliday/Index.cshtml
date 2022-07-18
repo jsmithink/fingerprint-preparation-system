@@ -1,0 +1,1317 @@
+﻿
+<!DOCTYPE html>
+
+<html
+  lang="ar"
+  class="light-style layout-navbar-fixed layout-menu-fixed"
+  dir="rtl"
+  data-theme="theme-default"
+  data-assets-path="assets/"
+  data-template="vertical-menu-template-no-customizer"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>أنواع الإجازات</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="~/assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="~/assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendor/fonts/flag-icons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="~/assets/vendor/css/rtl/core.css" />
+    <link rel="stylesheet" href="~/assets/vendor/css/rtl/theme-default.css" />
+    <link rel="stylesheet" href="~/assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="~/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="~/assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="~/assets/vendor/libs/apex-charts/apex-charts.css" />
+
+    <!-- Page CSS -->
+
+      
+     <!-- BEGIN: Custom CSS-->
+     <link rel="stylesheet" type="text/css" href="~/assets/css/style-rtl.css">
+     <!-- END: Custom CSS-->
+ 
+    <!-- Tajwal Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Changa:wght@700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- Helpers -->
+    <script src="~/assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="~/assets/js/config.js"></script>
+    </head>
+
+    <body>
+        <!-- Layout wrapper -->
+        <div class="layout-wrapper layout-content-navbar">
+          <div class="layout-container">
+            <!-- Menu -->
+    
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+                <div class="app-brand demo">
+                  <a href="index.html" class="app-brand-link">
+                    
+                    <span class="app-brand-text demo menu-text fw-bold ms-2">
+                        Logo
+                    </span>
+                  </a>
+      
+                  
+                </div>
+      
+                <div class="menu-divider mt-0"></div>
+      
+                <div class="menu-inner-shadow"></div>
+      
+                <ul class="menu-inner py-1">
+                  <!-- Dashboards -->
+                  <li class="menu-item ">
+                    <a  href="index.html" class="menu-link ">
+                      <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                      <div data-i18n="الصفحة الرئيسية">الصفحة الرئيسية </div></a>
+                  </li>
+      
+                  <!-- Layouts -->
+                  <li class="menu-item">
+                    <a href="" class="menu-link menu-toggle">
+                      <i class="menu-icon tf-icons bx bx-layout"></i>
+                      <div data-i18n="إدارة الحافز">إدارة الحافز</div>
+                    </a>
+      
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="bonus-data.html" class="menu-link">
+                          <div data-i18n="بيانات الحافز">بيانات الحافز</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="bonus-sheets.html" class="menu-link">
+                          <div data-i18n="كشوفات الحافز">كشوفات الحافز</div>
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </li>
+      
+               <!-- Apps & Pages -->
+              
+
+          <li class="menu-item active">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-food-menu"></i>
+              <div data-i18n="إدارة الإجازات والأذونات">إدارة الإجازات والأذونات</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item active">
+                   <a asp-controller="Holidays" asp-action="Index" class="menu-link">
+                      
+                  <div data-i18n="الإجازات">الإجازات</div>
+                </a>
+              </li>
+               <li class="menu-item active">
+                         <a asp-controller="TypeHoliday" asp-action="Index" class="menu-link">
+                          <div data-i18n="أنواع الإجازات">أنواع الإجازات</div>
+                        </a>
+                      </li>
+              <li class="menu-item">
+                 <a asp-controller="Balance" asp-action="Index" class="menu-link">
+                  <div data-i18n="أرصدة الإجازات">أرصدة الإجازات</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a asp-controller="Exemption" asp-action="Index" class="menu-link">
+                  <div data-i18n="الإعفاءات">الإعفاءات</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                 <a asp-controller=" " asp-action="Index" class="menu-link">
+                  <div data-i18n="تقرير الإجازات">تقرير الإجازات</div>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a asp-controller=" " asp-action="Index" class="menu-link">
+                  <div data-i18n="تقرير الإعفاءات">تقرير الإعفاءات</div>
+                </a>
+              </li>
+
+
+            </ul>
+          </li>
+          <li class="menu-item">
+             <a asp-controller="FingerprintDevices" asp-action="Index" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-user"></i>
+              <div data-i18n="إدارة أجهزة البصمة">إدارةأجهزةالبصمة</div>
+            </a>
+
+          </li>
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-check-shield"></i>
+              <div data-i18n="إدارة الدوام">إدارة الدوام </div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                 <a asp-controller="Attendances" asp-action="Index" class="menu-link">
+                  <div data-i18n="أيام وأوقات الدوام">أيام وأوقات الدوام</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a asp-controller="Shift" asp-action="Index" class="menu-link">
+                  <div data-i18n="موظفي الفترات">موظفي الفترات</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a asp-controller=" " asp-action="Index" class="menu-link">
+                  <div data-i18n=" التقارير">التقارير </div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <div data-i18n="الإعدادات والتراميز ">الإعدادات والتراميز</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                <a asp-controller=" " asp-action="Index" class="menu-link">
+                  <div data-i18n="ترميز إجازات الموظف">ترميز إجازات الموظف </div>
+                </a>
+
+              </li>
+              <li class="menu-item">
+                <a asp-controller="OfficialHolidays" asp-action="Index" class="menu-link">
+                  <div data-i18n="ترميز الإجازات الرسمية"> ترميز الإجازات الرسمية</div>
+                </a>
+
+              </li>
+              <li class="menu-item">
+                <a asp-controller="TypeExemption" asp-action="Index" class="menu-link">
+                  <div data-i18n="ترميز الإعفاءات">ترميز الإعفاءات</div>
+                </a>
+              </li>
+
+
+
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-user-check"></i>
+              <div data-i18n="إدارة المستخدمين">إدارة المستخدمين</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                <a asp-controller="UserRoles" asp-action="Index" class="menu-link">
+                  <div data-i18n="صلاحيات المستخدمين">صلاحيات المستخدمين</div>
+                </a>
+
+              </li>
+
+            </ul>
+          </li>
+                  <!-- Components -->
+                 
+                  <!-- Cards -->
+                
+                  <!-- User interface -->
+                
+              </aside>
+              <!-- / Menu -->
+    
+            <!-- Layout container -->
+            <div class="layout-page">
+               <!-- Navbar -->
+    
+               <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+                <div class="container-fluid">
+                  <div class="layout-menu-toggle navbar-nav d-xl-none align-items-xl-center me-3 me-xl-0">
+                    <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                      <i class="bx bx-menu bx-sm"></i>
+                    </a>
+                  </div>
+    
+                  <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+                    <!-- page name -->
+                    <div class="navbar-nav align-items-center">
+                      <div class="nav-item mb-0">
+                          <span class="d-none d-md-inline-block text-dark fs-4"> أنواع الإجازات </span>
+                      </div>
+                    </div>
+                    <!-- /page name -->
+    
+                    <ul class="navbar-nav flex-row align-items-center ms-auto">
+    
+                      <!-- Notification -->
+                      <li class="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-2">
+                        <a
+                          class="nav-link dropdown-toggle hide-arrow"
+                          href="javascript:void(0);"
+                          data-bs-toggle="dropdown"
+                          data-bs-auto-close="outside"
+                          aria-expanded="false"
+                        >
+                          <i class="bx bx-bell bx-sm"></i>
+                          <span class="badge rounded-pill badge-notifications bg-danger">5</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end py-0">
+                          <li class="dropdown-menu-header border-bottom">
+                            <div class="dropdown-header d-flex align-items-center py-3">
+                              <h5 class="text-body me-auto mb-0">الإشعارات</h5>
+                              <a
+                                href="javascript:void(0)"
+                                class="dropdown-notifications-all text-body"
+                                data-bs-toggle="tooltip"
+                                data-bs-placement="top"
+                                title="mark all as read"
+                                ><i class="bx fs-4 bx-envelope-open"></i
+                              ></a>
+                            </div>
+                          </li>
+                          <li class="dropdown-notifications-list scrollable-container">
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Congratulation Lettie 🎉</h6>
+                                    <p class="mb-0">Won the monthly best seller gold badge</p>
+                                    <small class="text-muted">1h ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <span class="avatar-initial bg-label-danger rounded-circle">CF</span>
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Charles Franklin</h6>
+                                    <p class="mb-0">Accepted your connection</p>
+                                    <small class="text-muted">12hr ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item marked-as-read">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <img src="../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">New Message ✉️</h6>
+                                    <p class="mb-0">You have new message from Natalie</p>
+                                    <small class="text-muted">1h ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <span class="avatar-initial bg-label-success rounded-circle"
+                                        ><i class="bx bx-cart"></i
+                                      ></span>
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Whoo! You have new order 🛒</h6>
+                                    <p class="mb-0">ACME Inc. made new order $1,154</p>
+                                    <small class="text-muted">1 day ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item marked-as-read">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <img src="../assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Application has been approved 🚀</h6>
+                                    <p class="mb-0">Your ABC project application has been approved.</p>
+                                    <small class="text-muted">2 days ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item marked-as-read">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <span class="avatar-initial bg-label-success rounded-circle"
+                                        ><i class="bx bx-pie-chart-alt"></i
+                                      ></span>
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Monthly report is generated</h6>
+                                    <p class="mb-0">July monthly financial report is generated</p>
+                                    <small class="text-muted">3 days ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item marked-as-read">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <img src="../assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">Send connection request</h6>
+                                    <p class="mb-0">Peter sent you connection request</p>
+                                    <small class="text-muted">4 days ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <img src="../assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle" />
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">New message from Jane</h6>
+                                    <p class="mb-0">Your have new message from Jane</p>
+                                    <small class="text-muted">5 days ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="list-group-item list-group-item-action dropdown-notifications-item marked-as-read">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 me-3">
+                                    <div class="avatar">
+                                      <span class="avatar-initial bg-label-warning rounded-circle"
+                                        ><i class="bx bx-error"></i
+                                      ></span>
+                                    </div>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mb-1">CPU is running high</h6>
+                                    <p class="mb-0">CPU Utilization Percent is currently at 88.63%,</p>
+                                    <small class="text-muted">5 days ago</small>
+                                  </div>
+                                  <div class="dropdown-notifications-actions flex-shrink-0">
+                                    <a href="javascript:void(0)" class="dropdown-notifications-read"
+                                      ><span class="badge badge-dot"></span
+                                    ></a>
+                                    <a href="javascript:void(0)" class="dropdown-notifications-archive"
+                                      ><span class="bx bx-x"></span
+                                    ></a>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-menu-footer border-top">
+                            <a href="javascript:void(0);" class="dropdown-item d-flex justify-content-center p-3">
+                              View all notifications
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--/ Notification -->
+    
+                      <!-- User -->
+                      <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                        <li>
+                          <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                            <div class="d-flex">
+                              <div class="flex-shrink-0 me-3">
+                                <div class="avatar">
+                                  <img src="assets/img/avatars/1.png" alt class="rounded-circle" />
+                                </div>
+                              </div>
+                              <div class="flex-grow-1">
+                                <span class="lh-1 d-block">معاذ محمد</span>
+                                <small class="text-muted" >مسؤول</small>
+                              </div>
+                            </div>
+                          </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li>
+                            <a class="dropdown-item" href="login.html">
+                              <i class="bx bx-power-off me-2"></i>
+                              <span class="align-middle" style="font-size: small;">تسجيل الخروج</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      </li>
+                      <!--/ User -->
+                    </ul>
+                  </div>
+    
+                  <!-- Search Small Screens -->
+                  <div class="navbar-search-wrapper search-input-wrapper d-none">
+                    <input
+                      type="text"
+                      class="form-control search-input container-fluid border-0"
+                      placeholder="Search..."
+                      aria-label="Search..."
+                    />
+                    <i class="bx bx-x bx-sm search-toggler cursor-pointer"></i>
+                  </div>
+                  
+                </div>
+                
+              </nav>
+            <hr style="margin-top:0px; box-shadow: 3px 2px 3px rgb(209, 208, 208);">
+            
+    
+              <!-- / Navbar -->
+
+
+
+
+
+
+
+
+
+              <!----------------------- Content ----------------------------------->
+ <!-- Content wrapper -->
+ <div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+
+      <!-- Basic Bootstrap Table -->
+      <div class="card mb-4">
+
+        <div class="card-header">
+
+          <div class="row ms-2 me-3">
+            <div
+              class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start gap-2">
+              <div class="dataTables_length" id="DataTables_Table_0_length">
+                <label>
+                  <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="form-select">
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>
+                </label>
+              </div>
+              <div id="DataTables_Table_0_filter" class="dataTables_filter">
+                <label>
+                  <div class="input-group input-group-merge">
+
+                    <span id="basic-icon-default-fullname2" class="input-group-text"><i
+                        class="bx bx-search-alt"></i></span>
+                    <input type="text" class="form-control" id="basic-icon-default-fullname" placeholder="... بحث"
+                      aria-describedby="basic-icon-default-fullname2">
+                  </div>
+                </label>
+              </div>
+
+            </div>
+
+            <div
+              class="col-12 col-md-6 d-flex align-items-center justify-content-end flex-column flex-md-row pe-3 gap-md-2">
+
+
+              
+              <div class="dt-action-buttons text-xl-end text-lg-start text-md-end text-start mt-md-0 mt-3">
+                <div class="dt-buttons">
+                  <button class="dt-button btn btn-primary" tabindex="0" aria-controls="DataTables_Table_0"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#moreThanEmployee"
+                    aria-controls="offcanvasEnd">
+                    <span><i class="bx bx-plus me-md-2"></i><span class="d-md-inline-block d-none"> إضافة إجازة </span></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="invoice_status mb-3 mb-md-0">
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="card-body">
+
+          <div class="table-responsive text-nowrap">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>الرقم </th>
+                  <th>اسم الإجازة</th>
+                  <th>المدة </th>
+                  <th>
+                    <div class="form-check">
+                      
+                      <label class="form-check-label" for="selectAll"> الإجراءات </label>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              
+              <tbody>
+
+                <tr>
+                  <td>1</td>
+                  <td> غير مبين   </td>
+                   <td> 0</td>
+                  <td>
+                    <a
+                    class="bx bx-trash me-1"   
+                    href="javascript:;"
+                    data-bs-target="#editUser"
+                    data-bs-toggle="modal">حذف</a>
+                  </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td> اعتيادية </td>
+                     <td>30</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                </tr>
+                  <tr>
+                    <td>3</td>
+                    <td> العارضة (الطارئة) </td>
+                     <td>10</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>4</td>
+                    <td> المرضية </td>
+                     <td>60</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>5</td>
+                    <td> مرافقة مريض </td>
+                     <td>60</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>6</td>
+                    <td> مرضية ناتجة عن إصابة عمل </td>
+                     <td>0</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>7</td>
+                    <td> إجازة الوضع </td>
+                     <td>60</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>8</td>
+                    <td> إجازة الحج </td>
+                     <td>30</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>9</td>
+                    <td> إجازة وفاة(للموظفة التي توفى زوجها) </td>
+                     <td>40</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>10</td>
+                    <td> إجازة وفاة(للموظف الذي تتوفى زوجته) </td>
+                     <td>20</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>11</td>
+                    <td> إجازة وفاة(للموظف والموظفة عند وفاة أحد الأبوين أو أحد الأبناء) </td>
+                     <td>14</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>12</td>
+                    <td> إجازة وفاة(للموظف والموظفة عند وفاة أحد الأقارب لغايةالدرجة الثانية من القرابة) </td>
+                     <td>7</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>13</td>
+                    <td> إجازة وفاة(للموظف والموظفة عند وفاة أحد من الدرجة الأولى في المصاهرة) </td>
+                     <td>3</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>14</td>
+                    <td> زواج</td>
+                     <td>15</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>15</td>
+                    <td> خاصة لمخالطة مريض</td>
+                     <td>0</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>16</td>
+                    <td> خاصة بدون راتب</td>
+                     <td>0</td>
+                     <td>
+                      <a
+                      class="bx bx-trash me-1"   
+                      href="javascript:;"
+                      data-bs-target="#editUser"
+                      data-bs-toggle="modal">حذف</a>
+                    </td>
+                  </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- Basic Pagination -->
+        <div class="card-footer demo-inline-spacing">
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+
+              <li class="page-item prev">
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-left"></i></a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="javascript:void(0);">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="javascript:void(0);">2</a>
+              </li>
+              <li class="page-item ">
+                <a class="page-link" href="javascript:void(0);">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="javascript:void(0);">4</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="javascript:void(0);">5</a>
+              </li>
+              <li class="page-item next">
+                <a class="page-link" href="javascript:void(0);"><i class="tf-icon bx bx-chevron-right"></i></a>
+              </li>
+
+            </ul>
+          </nav>
+          <!--/ Basic Pagination -->
+        </div>
+
+      </div>
+      <!--/ Basic Bootstrap Table -->
+
+
+    </div>
+    <!-- / Content -->
+    <!--إجازة لأكثر من موظف-->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="moreThanEmployee" aria-labelledby="offcanvasEndLabel"
+      aria-modal="true" role="dialog" style="visibility: visible; width: 500px; padding:-20px;">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasEndLabel" class="offcanvas-title">إضافة إجازة</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row g-3">
+
+          <div class="row ">
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlSelect1" class="form-label">الإدارة </label>
+                <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                  <option selected>الإدارة العامة للمحاكم </option>
+                  <option value=" الإدارة العامة للمحاكم "> الإدارة العامة للمحاكم</option>
+                  <option value=" الإدارة العامة للمحاكم "> الإدارة العامة للمحاكم</option>
+                  <option value=" الإدارة العامة للمحاكم "> الإدارة العامة للمحاكم</option>
+                  <option value=" الإدارة العامة للمحاكم "> الإدارة العامة للمحاكم</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3">
+                <label for="exampleFormControlSelect1" class="form-label">الفرع</label>
+                <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                  <option selected> الديوان العام </option>
+                  <option value="  الديوان العام ">الديوان العام </option>
+                  <option value="  الديوان العام ">الديوان العام </option>
+                  <option value="  الديوان العام ">الديوان العام </option>
+                  <option value="  الديوان العام ">الديوان العام </option>
+
+                </select>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-12">
+            <div class="mb-3 mx-2 mx-md-2">
+              <label class="form-label" for="collapsible-payment-expiry-date">اسم الإجازة</label>
+              <input type="text" id="collapsible-payment-expiry-date" class="form-control"
+                placeholder="  " >
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12">
+            <div class="mb-3">
+              <div>
+                <label for="flatpickr-date" class="form-label"> التاريخ</label>
+                <input type="text" class="form-control" placeholder="YYYY-MM-DD" id="flatpickr-date" />
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-6 col-md-6">
+            <div class="mb-3">
+              <label class="form-label" for="collapsible-payment-expiry-date">المدة </label>
+              <input type="text" id="collapsible-payment-expiry-date" class="form-control">
+            </div>
+          </div>
+
+          
+
+          <div class="col-6 col-md-6">
+            <div class="mb-3 mx-md-3">
+              <label class="form-label" for="collapsible-payment-expiry-date"> رقم الأمر الإداري</label>
+              <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder="  122"
+                style="width: 200px;">
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="row g-3">
+          <div class="col-12 col-md-8">
+            <div class="table-responsive text-nowrap">
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="offcanvas-footer mx-2">
+        <div class="row g-3 ">
+          <div class="col-12 col-md-6 ">
+
+            <button type="button" class="btn btn-primary d-grid w-100 mb-2">حفظ</button>
+          </div>
+
+          <div class="col-12 col-md-6 ">
+
+            <button type="button" class="btn btn-label-secondary d-grid w-100" data-bs-dismiss="offcanvas">
+              إلغاء
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!--/إجازة لأكثر من موظف-->
+
+
+    <!--إجازة لموظف واحد-->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="oneEmployee" aria-labelledby="offcanvasEndLabel"
+      aria-modal="true" role="dialog" style="visibility: visible; width: 500px; padding:-20px;">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasEndLabel" class="offcanvas-title">إجازة لموظف واحد </h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+
+
+
+
+
+
+      <div class="offcanvas-body">
+        <div class="row ">
+
+          <div class="col-12 col-md-12">
+            <div class="mb-3 mx-2 mx-md-2">
+              <label class="form-label" for="collapsible-payment-expiry-date">اسم الموظف </label>
+              <input type="text" id="collapsible-payment-expiry-date" class="form-control"
+                placeholder="إسماعيل شريف محمد " readonly>
+            </div>
+          </div>
+
+
+          <div class="row ">
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> الرقم الوظيفي </label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder="2 "
+                  readonly>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3 mx-md-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> العمل </label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control"
+                  placeholder="رئيس قسم " style="width: 200px;" readonly>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row ">
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> الإدارة </label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control"
+                  placeholder=" الإدارة العامة للمحاكم " readonly>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3 mx-md-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> الفرع</label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control"
+                  placeholder=" الديوان العام " style="width: 200px;" readonly>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-12">
+            <div class="mb-3">
+              <label for="exampleFormControlSelect1" class="form-label">نوع الإجازة </label>
+              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+
+                <option value="1- غير مبين  " selected> 1- غير مبين</option>
+                <option value=" 2- اعتيادية "> 2- اعتيادية </option>
+                <option value="  3- العارضة (الطارئة)"> 3- العارضة (الطارئة) </option>
+                <option value=" 4- المرضية"> 4- المرضية </option>
+                <option value=" 5- مرافقة مريض"> 5- مرافقة مريض </option>
+                <option value=" 6- مرضية ناتجة عن إصابة عمل"> 6- مرضية ناتجة عن إصابة عمل </option>
+                <option value=" 7- إجازة الوضع"> 7- إجازة الوضع </option>
+                <option value=" 8- إجازة الحج"> 8- إجازة الحج </option>
+                <option value=" 9- إجازة وفاة (للموظفة التي توفى زوجها) "> 9- إجازة وفاة (للموظفة التي توفى زوجها)
+                </option>
+                <option value=" 10- إجازة وفاة (للموظف الذي تتوفى زوجته) "> 10- إجازة وفاة (للموظف الذي تتوفى
+                  زوجته) </option>
+                <option value=" 11- إجازة وفاة (للموظف والموظفة عند وفاة أحد الوالدان) "> 11- إجازة وفاة (للموظف
+                  والموظفة عند وفاة أحد الوالدان) </option>
+                <option value=" 12- إجازة وفاة (للموظف والموظفة عند وفاة أحد الأبناء "> 12- إجازة وفاة (للموظف
+                  والموظفة عند وفاة أحد الأبناء) </option>
+                <option value=" 13- إجازة وفاة (للموظف والموظفة عند وفاة أحد من الدرجة الأولى "> 13- إجازة وفاة
+                  (للموظف والموظفة عند وفاة أحد من الدرجة الأولى) </option>
+                <option value="14- زواج "> 14- زواج</option>
+                <option value="15- خاصة لمخالطة مريض"> 15- خاصة لمخالطة مريض</option>
+                <option value="15- خاصة لمخالطة مريض"> 15- خاصة لمخالطة مريض</option>
+                <option value="16- خاصة بدون راتب"> 16- خاصة بدون راتب</option>
+
+              </select>
+            </div>
+
+          </div>
+
+
+          <div class="col-6 col-md-6">
+            <div class="mb-3">
+              <div>
+                <label for="flatpickr-date" class="form-label"> التاريخ</label>
+                <input type="text" class="form-control" placeholder="YYYY-MM-DD" id="flatpickr-date" />
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6">
+            <div class="mb-3">
+              <label class="form-label" for="collapsible-payment-expiry-date">المدة </label>
+              <input type="text" id="collapsible-payment-expiry-date" class="form-control">
+            </div>
+          </div>
+
+
+          <div class="row ">
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> المخصوم من الرصيد </label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" 7 "
+                  readonly>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="mb-3 mx-md-3">
+                <label class="form-label" for="collapsible-payment-expiry-date"> رقم الأمر الإداري</label>
+                <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder="  122"
+                  style="width: 200px;">
+              </div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 col-md-12 mb-md-3 ">
+                <label for="exampleFormControlTextarea1" class="form-label">سبب الإجازة </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+
+
+
+            <div>
+              <span> الرصيد المسحوب: 176 يوم</span> <br>
+              <span> الرصيد المتبفي: 69 يوم</span><br>
+              <span> اليوم: 8 ساعة</span><br>
+              <span> أيام لا تخصم من الرصيد: الخميس - الجمعة </span> <br>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="row g-3">
+          <div class="col-12 col-md-8">
+            <div class="table-responsive text-nowrap">
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="offcanvas-footer mx-2">
+        <div class="row g-3 ">
+          <div class="col-12 col-md-6 ">
+
+            <button type="button" class="btn btn-primary d-grid w-100 mb-2">حفظ</button>
+          </div>
+
+          <div class="col-12 col-md-6 ">
+
+            <button type="button" class="btn btn-label-secondary d-grid w-100" data-bs-dismiss="offcanvas">
+              إلغاء
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <!--/إجازة لموظف واحد -->
+
+
+    <!-- Footer -->
+    <footer class="content-footer footer bg-footer-theme">
+      <div class="container-fluid d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+        <div class="mb-2 mb-md-0">
+          ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+
+
+          <div>
+
+          </div>
+        </div>
+    </footer>
+    <!-- / Footer -->
+
+    <div class="content-backdrop fade"></div>
+  </div>
+  <!-- Content wrapper -->
+
+</div>
+<!-- / Layout page -->
+</div>
+
+<!-- Overlay -->
+<div class="layout-overlay layout-menu-toggle"></div>
+
+<!-- Drag Target Area To SlideIn Menu On Small Screens -->
+<div class="drag-target"></div>
+</div>
+<!-- / Layout wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="~/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="~/assets/vendor/libs/popper/popper.js"></script>
+    <script src="~/assets/vendor/js/bootstrap.js"></script>
+    <script src="~/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="~/assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="~/assets/vendor/libs/typeahead-js/typeahead.js"></script>
+
+    <script src="~/assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+    <!-- Vendors JS -->
+    <script src="~/assets/vendor/libs/datatables/jquery.dataTables.js"></script>
+    <script src="~/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <script src="~/assets/vendor/libs/datatables-responsive/datatables.responsive.js"></script>
+    <script src="~/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.js"></script>
+    <script src="~/assets/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.js"></script>
+    <script src="~/assets/vendor/libs/datatables-buttons/datatables-buttons.js"></script>
+    <script src="~/assets/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.js"></script>
+    <script src="~/assets/vendor/libs/jszip/jszip.js"></script>
+    <script src="~/assets/vendor/libs/pdfmake/pdfmake.js"></script>
+    <script src="~/assets/vendor/libs/datatables-buttons/buttons.html5.js"></script>
+    <script src="~/assets/vendor/libs/datatables-buttons/buttons.print.js"></script>
+    <!-- Flat Picker -->
+    <script src="~/assets/vendor/libs/moment/moment.js"></script>
+    <script src="~/assets/vendor/libs/flatpickr/flatpickr.js"></script>
+    <!-- Row Group JS -->
+    <script src="~/assets/vendor/libs/datatables-rowgroup/datatables.rowgroup.js"></script>
+    <script src="~/assets/vendor/libs/datatables-rowgroup-bs5/rowgroup.bootstrap5.js"></script>
+    <!-- Form Validation -->
+    <script src="~/assets/vendor/libs/formvalidation/dist/js/FormValidation.min.js"></script>
+    <script src="~/assets/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js"></script>
+    <script src="~/assets/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="~/assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="~/assets/js/tables-datatables-basic.js"></script>
+
+  </body>
+</html>
+

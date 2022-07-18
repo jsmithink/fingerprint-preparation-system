@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Attendances\Create.cshtml" />
+    <None Include="Views\Attendances\Delete.cshtml" />
+    <None Include="Views\Attendances\Edit.cshtml" />
+    <None Include="Views\Attendances\Index.cshtml" />
+    <None Include="Views\Balance\Create.cshtml" />
+    <None Include="Views\Balance\Delete.cshtml" />
+    <None Include="Views\Balance\Edit.cshtml" />
+    <None Include="Views\Balance\Index.cshtml" />
+    <None Include="Views\Discount\Create.cshtml" />
+    <None Include="Views\Discount\Delete.cshtml" />
+    <None Include="Views\Discount\Edit.cshtml" />
+    <None Include="Views\Discount\Index.cshtml" />
+    <None Include="Views\Employee\Create.cshtml" />
+    <None Include="Views\Employee\Delete.cshtml" />
+    <None Include="Views\Employee\Edit.cshtml" />
+    <None Include="Views\Employee\Index.cshtml" />
+    <None Include="Views\Exemption\Create.cshtml" />
+    <None Include="Views\Exemption\Delete.cshtml" />
+    <None Include="Views\Exemption\Edit.cshtml" />
+    <None Include="Views\Exemption\Index.cshtml" />
+    <None Include="Views\ExtraWork\Create.cshtml" />
+    <None Include="Views\ExtraWork\Delete.cshtml" />
+    <None Include="Views\ExtraWork\Edit.cshtml" />
+    <None Include="Views\ExtraWork\Index.cshtml" />
+    <None Include="Views\Fingerprint\Create.cshtml" />
+    <None Include="Views\Fingerprint\Delete.cshtml" />
+    <None Include="Views\Fingerprint\Edit.cshtml" />
+    <None Include="Views\Fingerprint\Index.cshtml" />
+    <None Include="Views\HolidayRequist\Create.cshtml" />
+    <None Include="Views\HolidayRequist\Delete.cshtml" />
+    <None Include="Views\HolidayRequist\Edit.cshtml" />
+    <None Include="Views\HolidayRequist\Index.cshtml" />
+    <None Include="Views\Holidays\Create.cshtml" />
+    <None Include="Views\Holidays\Delete.cshtml" />
+    <None Include="Views\Holidays\Edit.cshtml" />
+    <None Include="Views\Holidays\FormTypeHoliday.cshtml" />
+    <None Include="Views\Holidays\Index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Hr_Employee\Create.cshtml" />
+    <None Include="Views\Hr_Employee\Delete.cshtml" />
+    <None Include="Views\Hr_Employee\Edit.cshtml" />
+    <None Include="Views\Hr_Employee\Index.cshtml" />
+    <None Include="Views\JobAssignment\Create.cshtml" />
+    <None Include="Views\JobAssignment\Delete.cshtml" />
+    <None Include="Views\JobAssignment\Edit.cshtml" />
+    <None Include="Views\JobAssignment\Index.cshtml" />
+    <None Include="Views\OfficialHolidays\Create.cshtml" />
+    <None Include="Views\OfficialHolidays\Delete.cshtml" />
+    <None Include="Views\OfficialHolidays\Edit.cshtml" />
+    <None Include="Views\OfficialHolidays\Index.cshtml" />
+    <None Include="Views\Roles\Create.cshtml" />
+    <None Include="Views\Roles\Delete.cshtml" />
+    <None Include="Views\Roles\Edit.cshtml" />
+    <None Include="Views\Roles\Index.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_Notification.cshtml" />
+    <None Include="Views\Shared\_pagination.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Shift\Create.cshtml" />
+    <None Include="Views\Shift\Delete.cshtml" />
+    <None Include="Views\Shift\Edit.cshtml" />
+    <None Include="Views\Shift\Index.cshtml" />
+    <None Include="Views\TypeExemption\Create.cshtml" />
+    <None Include="Views\TypeExemption\Delete.cshtml" />
+    <None Include="Views\TypeExemption\Edit.cshtml" />
+    <None Include="Views\TypeExemption\Index.cshtml" />
+    <None Include="Views\TypeHoliday\Create.cshtml" />
+    <None Include="Views\TypeHoliday\Delete.cshtml" />
+    <None Include="Views\TypeHoliday\Edit.cshtml" />
+    <None Include="Views\TypeHoliday\Index.cshtml" />
+    <None Include="Views\UserRoles\Create.cshtml" />
+    <None Include="Views\UserRoles\Delete.cshtml" />
+    <None Include="Views\UserRoles\Edit.cshtml" />
+    <None Include="Views\UserRoles\Index.cshtml" />
+    <None Include="Views\_ViewImports.cshtml" />
+    <None Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.0-preview.1.20124.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0-preview3.21140.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.2.20120.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-preview.2.20120.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.2.20120.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.2.20120.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.Web.CodeGeneration">
+      <HintPath>C:\Users\pc\.nuget\packages\microsoft.visualstudio.web.codegeneration\5.0.2\lib\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

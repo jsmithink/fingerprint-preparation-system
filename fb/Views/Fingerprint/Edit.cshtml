@@ -1,0 +1,71 @@
+﻿@model fb.Models.Entites.Fingerprint
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Fingerprint</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Period_Name" class="control-label"></label>
+                <input asp-for="Period_Name" class="form-control" />
+                <span asp-validation-for="Period_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time_Departure" class="control-label"></label>
+                <input asp-for="Time_Departure" class="form-control" />
+                <span asp-validation-for="Time_Departure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Start_Time" class="control-label"></label>
+                <input asp-for="Start_Time" class="form-control" />
+                <span asp-validation-for="Start_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Letting_Time" class="control-label"></label>
+                <input asp-for="Letting_Time" class="form-control" />
+                <span asp-validation-for="Letting_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Closure_Time" class="control-label"></label>
+                <input asp-for="Closure_Time" class="form-control" />
+                <span asp-validation-for="Closure_Time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time_Required" class="control-label"></label>
+                <input asp-for="Time_Required" class="form-control" />
+                <span asp-validation-for="Time_Required" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fingerprint_date" class="control-label"></label>
+                <input asp-for="Fingerprint_date" class="form-control" />
+                <span asp-validation-for="Fingerprint_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeId" class="control-label"></label>
+                <select asp-for="EmployeeId" class="form-control" asp-items="ViewBag.EmployeeId"></select>
+                <span asp-validation-for="EmployeeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FingerprintDevicesId" class="control-label"></label>
+                <select asp-for="FingerprintDevicesId" class="form-control" asp-items="ViewBag.FingerprintDevicesId"></select>
+                <span asp-validation-for="FingerprintDevicesId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

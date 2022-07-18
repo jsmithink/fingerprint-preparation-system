@@ -1,0 +1,46 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+*{
+	font-family: 'Amiri', serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Tajawal', sans-serif;
+
+font-size: small;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Amiri', serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Tajawal', sans-serif;
+}
+
+.card-body h4{
+	font-family: 'Amiri', serif;
+	font-family: 'Changa', sans-serif;
+	font-family: 'Tajawal', sans-serif;
+}
+
+table , td, th{
+	font-size: 11px;
+}
+
+.gradient-buttons{
+    background-image: linear-gradient(to right,#277fc0 , #2179b9 60% , #1c74b4 40% , #186faf);
+    background-repeat: repeat-x;
+}
+
+.secondary_buttons{
+	background-color: #dceefb;
+	 color:#4e98ce;
+}

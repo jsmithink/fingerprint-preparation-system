@@ -1,0 +1,498 @@
+﻿++Solution 'Fingerprint' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Fingerprint.sln
+++Fingerprin
+i:{00000000-0000-0000-0000-000000000000}:Fingerprin
+++Connected Services 
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1917
+++Dependencies
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1919
+++Properties
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\properties\
+++launchSettings.json
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\properties\launchsettings.json
+++wwwroot
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\
+++css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\css\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-rtl\css\
+++site.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\css\site.css
+++js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\js\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\js\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\js\
+++site.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\js\site.js
+++lib
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\
+++bootstrap
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\
+++dashboard
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dashboard\
+++dist
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\dist\
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\license
+++bootstrap-datepicker
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\
+++bootstrap-datetimepicker
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\
+++bootstrap-icons
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\
+++bootstrap-rtl
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-rtl\
+++bootswatch
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\
+++cerulean
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\cerulean\
+++darkly
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\darkly\
+++jquery
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\
+++jquery-datetimepicker
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\
+++jquery-validation
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation-unobtrusive\
+++limonte-sweetalert2
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\limonte-sweetalert2\
+++toastr.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\toastr.js\
+++favicon.ico
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\favicon.ico
+++Controllers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\
+++AttendancesController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\attendancescontroller.cs
+++BalanceController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\balancecontroller.cs
+++DiscountController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\discountcontroller.cs
+++EmployeeController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\employeecontroller.cs
+++ExemptionController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\exemptioncontroller.cs
+++FingerprintController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\fingerprintcontroller.cs
+++FingerprintDevicesController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\fingerprintdevicescontroller.cs
+++HolidayRequistController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\holidayrequistcontroller.cs
+++HolidaysController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\holidayscontroller.cs
+++HomeController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\homecontroller.cs
+++JobAssignmentController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\jobassignmentcontroller.cs
+++OfficialHolidaysController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\officialholidayscontroller.cs
+++OfficialHolidaysDynamicController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\officialholidaysdynamiccontroller.cs
+++RolesController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\rolescontroller.cs
+++ShiftController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\shiftcontroller.cs
+++TypeExemptionController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\typeexemptioncontroller.cs
+++TypeHolidayController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\typeholidaycontroller.cs
+++UserRolesController.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\controllers\userrolescontroller.cs
+++Migrations
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\
+++20220409141414_CreateFP.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220409141414_createfp.cs
+++20220409141414_CreateFP.Designer.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220409141414_createfp.designer.cs
+++20220410030435_attribut.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410030435_attribut.cs
+++20220410030435_attribut.Designer.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410030435_attribut.designer.cs
+++20220410203626_dd.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410203626_dd.cs
+++20220410203626_dd.Designer.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410203626_dd.designer.cs
+++20220410205002_data.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410205002_data.cs
+++20220410205002_data.Designer.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\20220410205002_data.designer.cs
+++AppDbContextModelSnapshot.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\migrations\appdbcontextmodelsnapshot.cs
+++Models
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\
+++Data
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\data\
+++AppDbContext.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\data\appdbcontext.cs
+++Entites
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\
+++Attendance.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\attendance.cs
+++Balance.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\balance.cs
+++Discount.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\discount.cs
+++Employee.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\employee.cs
+++Exemption.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\exemption.cs
+++ExtraWork.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\extrawork.cs
+++Fingerprint.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\fingerprint.cs
+++FingerprintDevices.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\fingerprintdevices.cs
+++HolidayRequist.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\holidayrequist.cs
+++Holidays.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\holidays.cs
+++JobAssignment.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\jobassignment.cs
+++OfficialHolidays.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\officialholidays.cs
+++OfficialHolidaysDynamic.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\officialholidaysdynamic.cs
+++Roles.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\roles.cs
+++Shift.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\shift.cs
+++TypeExemption.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\typeexemption.cs
+++TypeHoliday.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\typeholiday.cs
+++UserRoles.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\entites\userroles.cs
+++ErrorViewModel.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\models\errorviewmodel.cs
+++Views
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\
+++Attendances
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\attendances\
+++Balance
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\balance\
+++Create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\balance\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\exemption\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidays\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\jobassignment\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\officialholidays\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\roles\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeexemption\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeholiday\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\userroles\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\attendances\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\discount\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\employee\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprint\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprintdevices\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidayrequist\create.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shift\create.cshtml
+++Delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\balance\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\exemption\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidays\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\jobassignment\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\officialholidays\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\roles\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeexemption\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeholiday\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\userroles\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\attendances\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\discount\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\employee\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprint\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprintdevices\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidayrequist\delete.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shift\delete.cshtml
+++Edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\balance\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\exemption\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidays\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\jobassignment\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\officialholidays\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\roles\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeexemption\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeholiday\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\userroles\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\attendances\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\discount\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\employee\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprint\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprintdevices\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidayrequist\edit.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shift\edit.cshtml
+++Index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\balance\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\exemption\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidays\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\jobassignment\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\officialholidays\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\roles\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeexemption\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeholiday\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\userroles\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\attendances\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\discount\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\employee\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprint\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprintdevices\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidayrequist\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\home\index.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shift\index.cshtml
+++Discount
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\discount\
+++Employee
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\employee\
+++Exemption
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\exemption\
+++Fingerprint
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprint\
+++FingerprintDevices
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\fingerprintdevices\
+++HolidayRequist
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidayrequist\
+++Holidays
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\holidays\
+++Home
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\home\
+++JobAssignment
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\jobassignment\
+++OfficialHolidays
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\officialholidays\
+++Roles
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\roles\
+++Shared
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shared\
+++_Layout.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shared\_layout.cshtml
+++_Notification.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shared\_notification.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shared\error.cshtml
+++Shift
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\shift\
+++TypeExemption
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeexemption\
+++TypeHoliday
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\typeholiday\
+++UserRoles
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\userroles\
+++_ViewImports.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\_viewstart.cshtml
+++appsettings.json
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\appsettings.json
+++libman.json
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\libman.json
+++Program.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\program.cs
+++Startup.cs
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\startup.cs
+++No service dependencies discovered
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1918
+++Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:analyzers
+++Assemblies
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:assemblies
+++Frameworks
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:frameworks
+++Packages
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:packages
+++dashboard.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dashboard\dashboard.css
+++dashboard.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dashboard\dashboard.js
+++feather.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dashboard\feather.min.js
+++font
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\
+++bootstrap-icons.svg
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\bootstrap-icons.svg
+++bootstrap.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\cerulean\bootstrap.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\darkly\bootstrap.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootswatch\darkly\bootstrap.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++LICENSE.txt
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\license.txt
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++jquery.datetimepicker.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.css
+++jquery.datetimepicker.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.js
+++LICENSE.md
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++sweetalert2.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\limonte-sweetalert2\sweetalert2.min.css
+++sweetalert2.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\limonte-sweetalert2\sweetalert2.min.js
+++toastr.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\toastr.js\toastr.min.css
+++toastr.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\toastr.js\toastr.min.js
+++Privacy.cshtml
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\views\home\privacy.cshtml
+++appsettings.Development.json
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\users\pc\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\users\pc\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.0-preview.2.20120.8\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.VisualStudio.Web.CodeGeneration
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:c:\users\pc\.nuget\packages\microsoft.visualstudio.web.codegeneration\5.0.2\lib\net5.0\microsoft.visualstudio.web.codegeneration.dll
+++Microsoft.AspNetCore.App
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\microsoft.netcore.app
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (5.0.0-preview.1.20124.5)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1939
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (5.0.0)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1935
+++Microsoft.Data.SqlClient (3.0.0-preview3.21140.5)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1937
+++Microsoft.EntityFrameworkCore (5.0.0-preview.2.20120.8)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1936
+++Microsoft.EntityFrameworkCore.Relational (5.0.0-preview.2.20120.8)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1940
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.0-preview.2.20120.8)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1938
+++Microsoft.EntityFrameworkCore.Tools (5.0.0-preview.2.20120.8)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1941
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (5.0.2)
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:>1942
+++bootstrap-grid.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap-datepicker.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.css
+++bootstrap-datepicker3.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.css
+++bootstrap-datepicker.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\js\bootstrap-datepicker.min.js
+++bootstrap-datetimepicker.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\bootstrap-datetimepicker.css
+++bootstrap-datetimepicker-standalone.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\bootstrap-datetimepicker-standalone.css
+++bootstrap-datetimepicker.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\js\bootstrap-datetimepicker.min.js
+++fonts
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\fonts\
+++bootstrap-icons.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\bootstrap-icons.css
+++bootstrap-rtl.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-rtl\css\bootstrap-rtl.min.css
+++jquery.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\dist\jquery.js
+++jquery.datetimepicker.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.min.css
+++jquery.datetimepicker.full.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.full.js
+++jquery.datetimepicker.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.min.js
+++additional-methods.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap-grid.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++bootstrap-datepicker.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.css.map
+++bootstrap-datepicker.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.min.css
+++bootstrap-datepicker.standalone.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.standalone.css
+++bootstrap-datepicker3.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.css.map
+++bootstrap-datepicker3.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.min.css
+++bootstrap-datepicker3.standalone.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.standalone.css
+++bootstrap-datetimepicker.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\bootstrap-datetimepicker.min.css
+++bootstrap-datetimepicker-standalone.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\bootstrap-datetimepicker-standalone.min.css
+++bootstrap-icons.woff
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\fonts\bootstrap-icons.woff
+++bootstrap-icons.woff2
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\fonts\bootstrap-icons.woff2
+++bootstrap-icons.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-icons\font\bootstrap-icons.min.css
+++jquery.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.datetimepicker.full.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-datetimepicker\jquery.datetimepicker.full.min.js
+++additional-methods.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.min.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap-datepicker.standalone.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.standalone.css.map
+++bootstrap-datepicker.standalone.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker.standalone.min.css
+++bootstrap-datepicker3.standalone.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.standalone.css.map
+++bootstrap-datepicker3.standalone.min.css
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datepicker\css\bootstrap-datepicker3.standalone.min.css
+++bootstrap-datetimepicker-standalone.min.css.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap-datetimepicker\css\bootstrap-datetimepicker-standalone.min.css.map
+++jquery.min.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.bundle.min.js.map
+i:{3dcf92e6-525e-4139-a188-ba44499311e7}:d:\وثائقي ومعلوماتي\fingerprint  with finally\fb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map

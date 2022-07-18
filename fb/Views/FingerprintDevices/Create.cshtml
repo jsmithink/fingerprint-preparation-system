@@ -1,0 +1,192 @@
+﻿
+                <!--إضافة جهاز جديد-->
+ 
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="moreThanEmployee" aria-labelledby="offcanvasEndLabel"
+            aria-modal="true" role="dialog" style="visibility: visible; width: 500px; padding:-20px;">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasEndLabel" class="offcanvas-title"> إضافة جهاز جديد</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="row g-3">
+
+
+                <div class="row">
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label @*asp-for="Device_Name"*@ class="form-label" for="collapsible-payment-expiry-date">اسم الجهاز </label>
+                      <input @*asp-for="Device_Name"*@ type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" Dev5 ">
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label class="form-label" for="collapsible-payment-expiry-date">رقم الجهاز </label>
+                      <input type="text" id="collapsible-payment-expiry-date" class="form-control"  placeholder=" 0 ">
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="row">
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label class="form-label" for="collapsible-payment-expiry-date">موقع الجهاز </label>
+                      <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" الموقع الجديد ">
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label for="exampleFormControlSelect1" class="form-label">المنفذ التسلسلي</label>
+                      <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                        <option selected> 0</option>
+                        <option value=" 0">0</option>
+                        <option value="  0">0 </option>
+                        <option value=" 0">0 </option>
+                        <option value="  0">0</option>
+
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row ">
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label for="exampleFormControlSelect1" class="form-label">نوع الإتصال </label>
+                      <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                        <option selected>Ethernet</option>
+                        <option value=" Ethernet "> Ethernet</option>
+                        <option value=" Ethernet">Ethernet</option>
+                        <option value=" Ethernet"> Ethernet</option>
+                        <option value="Ethernet"> Ethernet</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-md-6">
+                    <div class="mb-3">
+                      <label for="exampleFormControlSelect1" class="form-label">السرعة</label>
+                      <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                        <option selected> 0</option>
+                        <option value="0">0</option>
+                        <option value="0">0</option>
+                        <option value="0">0</option>
+                        <option value="0">0</option>
+
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-12">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date">نوع الشبكة والمنفذ</label>
+                    <input type="text" id="collapsible-payment-expiry-date" class="form-control"  placeholder=" 0 ">
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-12">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date"> الرقم المصنعي</label>
+                    <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" 0">
+                  </div>
+                </div>
+
+                
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <div>
+                      <label for="flatpickr-date" class="form-label"> تاريخ بداية سحب البيانات</label>
+                      <input type="text" class="form-control" placeholder="YYYY-MM-DD" id="flatpickr-date" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <div>
+                      <label for="flatpickr-date" class="form-label"> تاريخ اخر سحب </label>
+                      <input type="text" class="form-control" placeholder="YYYY-MM-DD" id="flatpickr-date" />
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date">رقم الأمان</label>
+                    <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" 0">
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date">موقع ويب</label>
+                    <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" 0">
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date">الإتصال</label>
+                    <input type="text" id="collapsible-payment-expiry-date" class="form-control" placeholder=" 0">
+                  </div>
+                </div>
+
+                <div class="col-6 col-md-6">
+                  <div class="mb-3">
+                    <label class="form-label" for="collapsible-payment-expiry-date">اتصال عبر النت</label>
+                    <input class="form-check-input" type="radio" id="selectAll" />
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="row g-3">
+                <div class="col-12 col-md-8">
+                  <div class="table-responsive text-nowrap">
+
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="offcanvas-footer mx-2">
+              <div class="row g-3 ">
+                <div class="col-12 col-md-6 ">
+
+                  <button type="button" class="btn btn-primary d-grid w-100 mb-2">حفظ</button>
+                </div>
+
+                <div class="col-12 col-md-6 ">
+
+                  <button type="button" asp-action="Index" class="btn btn-label-secondary d-grid w-100" data-bs-dismiss="offcanvas">
+                    إلغاء
+                  </button>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+           <!--/إضافة جهاز جديد-->
+         
